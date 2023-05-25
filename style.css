@@ -1,3 +1,31 @@
-h1, h2, h3, h4, h5, h6 {
-    text-align: center; color: crimson;
+  body{
+    background-color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
   }
+
+  h1, h4{
+    text-align: center; color: rgb(3, 3, 3);
+  }
+  .footer{
+    display: flex;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    justify-content:center;
+
+  }
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+ 
